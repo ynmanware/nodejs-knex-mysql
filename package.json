@@ -1,0 +1,19 @@
+{
+  "name": "node-mysqq-addressbook",
+  "version": "1.0.0",
+  "description": "node-mysqq-addressbook",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --colors --watch",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
